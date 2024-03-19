@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "multibuy-helper",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://steamcommunity.com/market/multibuy*"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "icons": {
+        "256": "img/images.jpeg"
+    }
+}

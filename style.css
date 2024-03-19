@@ -1,0 +1,23 @@
+.multibuy-input{
+    color: #909090;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    width: 4em;
+    border-radius: 3px;
+}
+.multibuy-button{
+    border-radius: 2px;
+    width: 45%;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: #a4d007;
+    background: -webkit-linear-gradient(top, #a4d007 5%, #536904 95%);
+    background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+}
+.multibuy-percent{
+    width: 45%;
+}
